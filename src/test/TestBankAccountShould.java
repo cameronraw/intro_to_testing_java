@@ -1,6 +1,6 @@
 package test;
 
-import main.BankAccount;
+import main.bank.BankAccount;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

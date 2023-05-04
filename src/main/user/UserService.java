@@ -1,11 +1,8 @@
-package main;
+package main.user;
 
 import java.time.Year;
 
 public class UserService {
-
-    public UserService() {
-    }
 
     public String greetUser(String name){
         return String.format("Hey, %s!", name);

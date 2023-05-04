@@ -1,4 +1,4 @@
-package main;
+package main.bank;
 
 public record Transaction(TransactionType transactionType, int amount) {
     public int getFormattedAmount(){

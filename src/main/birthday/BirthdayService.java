@@ -1,12 +1,12 @@
-package main;
+package main.birthday;
 
 import java.time.Year;
 
 public class BirthdayService {
 
-    private DateTimeService dateTimeService;
+    private IDateTimeService dateTimeService;
 
-    public BirthdayService(DateTimeService dateTimeService) {
+    public BirthdayService(IDateTimeService dateTimeService) {
         this.dateTimeService = dateTimeService;
     }
 
