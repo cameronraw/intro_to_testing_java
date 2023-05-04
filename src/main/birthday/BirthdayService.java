@@ -4,7 +4,7 @@ import java.time.Year;
 
 public class BirthdayService {
 
-    private IDateTimeService dateTimeService;
+    private final IDateTimeService dateTimeService;
 
     public BirthdayService(IDateTimeService dateTimeService) {
         this.dateTimeService = dateTimeService;
